@@ -1,12 +1,5 @@
 .env*
 __pycache__
-notebooks
-
-release
-debug
-
-.vscode
-set_env.sh
-
-*.so
 .ipynb_checkpoints
+.vscode
+uv.lock
