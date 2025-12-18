@@ -1,12 +1,19 @@
-.env*
-__pycache__
-notebooks
-
-release
-debug
-
-.vscode
-set_env.sh
-
-*.so
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
 .ipynb_checkpoints
+
+# Virtual environments
+.venv
+uv.lock
+
+# Ruff cache
+.ruff_cache
+
+# Editors
+.vscode
+.cursor
